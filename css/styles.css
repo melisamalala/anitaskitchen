@@ -1,4 +1,4 @@
-body{
+/* body{
   margin: 0;
 }
 .container-fluid {
@@ -16,7 +16,7 @@ background-attachment: fixed;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-margin-top: 70px;
+margin-top: 50px;
 }
 
 .overlay{
@@ -45,37 +45,27 @@ display: block;
 transition: 0.3s;
 }
 
-.overlayMenu a:hover, .overlayMenu a:focus {
-color: #f1f1f1;
-}
-
-.overlayMenu .closebtn {
-position: absolute;
-top: 20px;
-right: 45px;
-font-size: 60px;
-}
-
 .header{
-margin-top: 3%;
+margin-top: 4%;
 text-align: center;
 color: white;
-font-size: 60px;
+font-size: 40px;
+font-family: serif;
 }
 .logo{
 margin-top: 4%;
 text-align: center;
 }
 
-@media screen and (max-height: 450px) {
+/* @media screen and (max-height: 450px) {
 .overlayMenu a {font-size: 20px}
 .overlayMenu .closebtn {
 font-size: 40px;
 top: 15px;
 right: 35px;
 
-}
-
+} */
+/*
 .centered {
   position:absolute;
   top: 50%;
@@ -87,15 +77,15 @@ right: 35px;
   position: relative;
   text-align: center;
   color: white;
-}
-.menu{
+} */
+/* .menu{
 margin-top: 20px;
 margin-left: 20px;
 background-color: transparent;
 height: 50px;
 width: 75px;
-}
-
+} */
+/*
 .button {
 border: none;
 color: #F15A29;
@@ -107,8 +97,8 @@ font-size: 18px;
 margin: 4px 2px;
 cursor: pointer;
 border-radius: 5px;
-}
-
+} */
+/*
 .button1 {
 background-color: white;
 color: #F15A29;
@@ -120,9 +110,9 @@ font-family: 'Nunito', sans-serif;
 .happy{
 height: 119px;
 width:300px;
-}
+} */
 
-
+/*
 
 .bg-1{
 padding: 0;
@@ -148,8 +138,8 @@ overflow: hidden;
 width: 100%;
 height: 100%;
 transition: .5s ease;
-}
-
+/* } */
+/*
 .bg-1:hover .overlay-mini {
 position: absolute;
 bottom: 0;
@@ -162,10 +152,10 @@ transition: .5s ease;
 }
 .bg-1:hover .text {
 color: #000000;
-}
-
-.text {
-color: white;
+} */
+/*
+.text { */
+/* color: white;
 font-size: 40px;
 padding: 16px 32px;
 white-space: nowrap;
@@ -175,8 +165,8 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 -ms-transform: translate(-50%, -50%);
-}
-
+} */
+/*
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -216,8 +206,8 @@ background-image: url(../img/foodsBg.jpg);
  background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
-}
-.media3{
+/* } */
+/* .media3{
 padding: 0;
 height: 300px;
 width:100%;
@@ -235,8 +225,8 @@ margin-bottom: 100px;
 margin-left: 10%;
 margin-right: 10%;
 background-color: #ffffff;
-}
-#burger{
+} */
+/* #burger{
 	text-align: center;
 	padding: 50px;
 }
@@ -248,4 +238,225 @@ background-color: #ccc;
 
 .bg-10{
 padding: 0;
+} */
+
+
+/* .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+} */
+/*
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+body{
+  font-family: sans-serif;
+  margin: 0px;
+  color: white;
+}
+
+#parent-menu {
+  height: 200px;
+}
+
+#happy-hour {
+  background-color: lavender;
+}
+
+#party-time {
+  background-color: coral;
+  color: white;
+}
+
+#breakfast{
+  background-image: url("../img/assets/foodtop/breakfast.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#breakfast:hover{
+  background-image: url("../img/assets/foodtop/breakfast.jpg");
+  opacity: 0.5;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font: black;
+}
+
+#lunch{
+  background-image: url("../img/assets/foodtop/lunch.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#lunch:hover{
+  background-image: url("../img/assets/foodtop/dinner2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#dinner{
+  background-image: url("../img/assets/foodtop/dinner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#dinner:hover{
+  background-image: url("../img/assets/foodtop/dinner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.5;
+}
+
+#intoduction{
+  /* padding: 0; */
+  #introduction(
+    padding: 0;
+}
+  background-attachment: fixed;
+  background-image: url("../img/assets/backgrounds/landing.jpg");
+  background-position: center;
+  height: 850px;
+  width:100%;
+  background-size: cover;
+  /* margin-top: 70px; */
+}
+.heading2{
+  color: grey;
+}
+.heading3{
+  color: grey;
+}
+.fastfoodp{
+  color: grey;
+}
+#fastfood{
+  float: left;
+  padding: 0
+
+}
+.heading4{
+  color: grey;
+}
+.heading5{
+  color: grey;
+}
+.fastfoodd{
+  color: grey;
+}
+#bf{
+  color: white;
+  font-style: italic;
+}
+#lu{
+  color: white;
+  font-style: italic;
+}
+#di{
+  color: white;
+  font-style: italic;
+}
+#btn1:hover{
+  color: orange;
+  background: white;
+  padding: 2px;
+  font-size: 14px
+  border: 1px solid orange;
+}
+#btn2:hover{
+  color: orange;
+  background: white;
+  padding: 2px;
+  font-size: 14px
+}
+#jumbo1{
+  background-image: url("../img/assets/backgrounds/foodsBg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#jumbo2{
+  background-color: white;
+  box-shadow: 6px 7px 15px 15px grey;
+  border-radius: 25px;
+}
+#h3{
+color: orange;
+text-align: center;
+}
+#h4{
+  color: grey;
+  text-align: center;
+}
+#p2{
+  color: grey;
+  text-align: center;
+}
+#jumbo3{
+  background-image: url("../img/assets/backgrounds/subscribe.jpg");
+}
+
+#btn3{
+  -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    color: white;
+    background-color: orange;
+    float: right;
+    padding: 0;
+  }
+#jumbo4{
+  background-color: orange;
+}
+.heading6{
+  text-align: center;
+}
+#footerh3{
+  text-align: center;
+}
+.center {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.lavender{
+  background-color: lavender;
+}
+.card-title{
+  color: orange;
 }
