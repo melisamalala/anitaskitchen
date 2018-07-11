@@ -350,7 +350,7 @@ body{
     padding: 0;
 }
   background-attachment: fixed;
-  background-image: url("../img/assets/backgrounds/landing.jpg");
+  background-image: url("../img/backgrounds/landing.jpg");
   background-position: center;
   height: 850px;
   width:100%;
@@ -406,7 +406,7 @@ body{
   font-size: 14px
 }
 #jumbo1{
-  background-image: url("../img/assets/backgrounds/foodsBg.jpg");
+  background-image: url("../img/backgrounds/foodsBg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -429,7 +429,7 @@ text-align: center;
   text-align: center;
 }
 #jumbo3{
-  background-image: url("../img/assets/backgrounds/subscribe.jpg");
+  background-image: url("../img/backgrounds/subscribe.jpg");
 }
 
 #btn3{
