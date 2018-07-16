@@ -346,15 +346,14 @@ body{
 
 #intoduction{
   /* padding: 0; */
-  #introduction(
-    padding: 0;
-}
-  background-attachment: fixed;
-  background-image: url("../img/backgrounds/landing.jpg");
-  background-position: center;
-  height: 850px;
-  width:100%;
-  background-size: cover;
+#introduction {
+padding: 0;
+background-attachment: fixed;
+background-image: url(../img/landing.jpg);
+background-position: center;
+height: 850px;
+width:100%;
+background-size: cover;
   /* margin-top: 70px; */
 }
 .heading2{
@@ -406,7 +405,7 @@ body{
   font-size: 14px
 }
 #jumbo1{
-  background-image: url("../img/backgrounds/foodsBg.jpg");
+  background-image: url(../img/foodsBg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -428,8 +427,9 @@ text-align: center;
   color: grey;
   text-align: center;
 }
+
 #jumbo3{
-  background-image: url("../img/backgrounds/subscribe.jpg");
+  background-image: url(../img/subscribe.jpg);
 }
 
 #btn3{
@@ -440,6 +440,7 @@ text-align: center;
     float: right;
     padding: 0;
   }
+
 #jumbo4{
   background-color: orange;
 }
@@ -459,4 +460,17 @@ text-align: center;
 }
 .card-title{
   color: orange;
+}
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+body {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+#jumbo3{
+  margin-bottom: 0;
+  background-color: #ffff;
+}
+
+#forms{
+  background-color: #ffff;
 }
