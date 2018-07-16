@@ -286,9 +286,7 @@ body{
   color: white;
 }
 
-#parent-menu {
-  height: 200px;
-}
+
 
 
 
@@ -331,16 +329,16 @@ background-size: cover;
   color: grey;
 }
 #bf{
-  color: black;
+  color: white;
   font-style: italic;
 }
 #lu{
-  color: black;
+  color: white;
   font-style: italic;
   background-image: url(../img/lunch.jpg);
 }
 #di{
-  color: black;
+  color: white;
   font-style: italic;
   background-image: url(../img/dinner.jpg);
 }
@@ -428,22 +426,22 @@ body {
   background-color: #ffff;
 }
 
-
 #happy-hour {
-  background-color: lavender;
+  background-color: black;
+  color: white;
 }
 
 #party-time {
-  background-color: coral;
-  color: orange;
+  background-color: black;
+  color: white;
 }
-
 
 #breakfast{
   background-image: url("../img/dinner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
+  margin-top: 0;
 }
 
 #breakfast:hover{
@@ -460,6 +458,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
+    margin-top: 0;
 }
 
 #lunch:hover{
@@ -475,6 +474,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
+    margin-top: 0;
 }
 
 #dinner:hover{
@@ -483,4 +483,9 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   opacity: 0.5;
+}
+
+
+#parent-menu {
+  height: 200px;
 }
